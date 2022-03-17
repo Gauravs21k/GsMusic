@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "185878275406",
+    "project_id": "gsmusic-c6ae6",
+    "storage_bucket": "gsmusic-c6ae6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:185878275406:android:6c8a83cded712a6162ea1f",
+        "android_client_info": {
+          "package_name": "com.gaurav.gsmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "185878275406-q3rad0t0o28oeu385o77068cpi5t3k4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCerkmMgiy8eEqgEWYx7gkHS1yeFQ88Pas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "185878275406-q3rad0t0o28oeu385o77068cpi5t3k4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
