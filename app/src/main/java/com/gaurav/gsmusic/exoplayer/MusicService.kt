@@ -7,6 +7,7 @@ import android.support.v4.media.session.MediaSessionCompat
 import androidx.media.MediaBrowserServiceCompat
 import com.google.android.exoplayer2.ExoPlayer
 import com.google.android.exoplayer2.ext.mediasession.MediaSessionConnector
+import com.google.android.exoplayer2.upstream.DefaultDataSource
 import com.google.android.exoplayer2.upstream.DefaultDataSourceFactory
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.CoroutineScope
@@ -20,7 +21,7 @@ private const val SERVICE_TAG = "MusicService"
 @AndroidEntryPoint
 class MusicService: MediaBrowserServiceCompat() {
 
-    @Inject lateinit var dataSourceFactory: DefaultDataSourceFactory
+    @Inject lateinit var dataSourceFactory: DefaultDataSource.Factory
     @Inject lateinit var exoPlayer: ExoPlayer
 
     private val serviceJob = Job()
